@@ -1,0 +1,10 @@
+C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue\SirRogue\bin\Debug\SirRogue.exe.config
+C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue\SirRogue\bin\Debug\SirRogue.exe
+C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue\SirRogue\bin\Debug\SirRogue.pdb
+C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue\SirRogue\obj\Debug\SirRogue.csprojResolveAssemblyReference.cache
+C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue\SirRogue\obj\Debug\SirRogue.Form1.resources
+C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue\SirRogue\obj\Debug\SirRogue.Properties.Resources.resources
+C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue\SirRogue\obj\Debug\SirRogue.csproj.GenerateResource.Cache
+C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue\SirRogue\obj\Debug\SirRogue.exe
+C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue\SirRogue\obj\Debug\SirRogue.pdb
+C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue\SirRogue\obj\Debug\SirRogue.Loot.resources
