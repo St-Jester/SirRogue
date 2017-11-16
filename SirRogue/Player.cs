@@ -10,11 +10,12 @@ namespace SirRogue
     public class Player
     {
         Inventory inv;
-        Stats s = new Stats(100, 100, 200, 30);
+        public Stats s = new Stats(100, 100, 200, 30);
         //Item[] equipped = new Item[4];
         public Player()
         {
-            inv = new Inventory();
+            inv = Inventory.instance;
+            
         }
         public void AddItem(Item i)
         {

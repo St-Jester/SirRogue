@@ -11,7 +11,8 @@ namespace SirRogue
         #region Singleton
         public static Inventory instance;
         #endregion
-        public List<Item> inventory = new List<Item>();
+
+        public List<Item> items;
         int capacity = 30;
 
         // Callback which is triggered when
@@ -22,6 +23,7 @@ namespace SirRogue
 
         public Inventory()
         {
+            items = new List<Item>();
             if (instance != null)
             {
                 throw new Exception("More than one instance of Inventory found!");  
@@ -31,13 +33,13 @@ namespace SirRogue
 
         public void Add(Item i)
         {
-            if(inventory.Count>=capacity)
+            if(items.Count>=capacity)
             {
                 throw new Exception("OutOfRange");
             }
             else
             {
-                inventory.Add(i);
+                items.Add(i);
 
                 //callback
                 if (onItemChangedCallback != null)
@@ -47,7 +49,7 @@ namespace SirRogue
 
         public void Remove(Item i)
         {
-            inventory.Remove(i);     // Remove item from list
+            items.Remove(i);     // Remove item from list
 
             // Trigger callback
             if (onItemChangedCallback != null)

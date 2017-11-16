@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.InventoryPanel = new System.Windows.Forms.TableLayoutPanel();
             this.money = new System.Windows.Forms.Label();
             this.MoneyBox = new System.Windows.Forms.TextBox();
             this.HeroBox = new System.Windows.Forms.GroupBox();
@@ -41,7 +41,10 @@
             this.EquipedText = new System.Windows.Forms.TextBox();
             this.EquipedPanel = new System.Windows.Forms.TableLayoutPanel();
             this.JournalBox = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
+            this.InventoryPanel.SuspendLayout();
             this.HeroBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PlayerAvatar)).BeginInit();
             this.panel1.SuspendLayout();
@@ -49,7 +52,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.tableLayoutPanel1);
+            this.groupBox1.Controls.Add(this.InventoryPanel);
             this.groupBox1.Controls.Add(this.money);
             this.groupBox1.Controls.Add(this.MoneyBox);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -63,30 +66,33 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Inventory";
             // 
-            // tableLayoutPanel1
+            // InventoryPanel
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.BurlyWood;
-            this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(4, 17);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 10;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(145, 384);
-            this.tableLayoutPanel1.TabIndex = 2;
+            this.InventoryPanel.BackColor = System.Drawing.Color.BurlyWood;
+            this.InventoryPanel.ColumnCount = 4;
+            this.InventoryPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.InventoryPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.InventoryPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.InventoryPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.InventoryPanel.Controls.Add(this.button1, 0, 0);
+            this.InventoryPanel.Controls.Add(this.button2, 1, 0);
+            this.InventoryPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.InventoryPanel.Location = new System.Drawing.Point(4, 17);
+            this.InventoryPanel.Name = "InventoryPanel";
+            this.InventoryPanel.RowCount = 10;
+            this.InventoryPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.InventoryPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.InventoryPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.InventoryPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.InventoryPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.InventoryPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.InventoryPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.InventoryPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.InventoryPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.InventoryPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.InventoryPanel.Size = new System.Drawing.Size(145, 384);
+            this.InventoryPanel.TabIndex = 2;
+            this.InventoryPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.InventoryPanel_Paint);
             // 
             // money
             // 
@@ -234,6 +240,24 @@
             this.JournalBox.TabStop = false;
             this.JournalBox.Text = "Journal";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(21, 30);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(47, 1);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(21, 30);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -251,6 +275,7 @@
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.InventoryPanel.ResumeLayout(false);
             this.HeroBox.ResumeLayout(false);
             this.HeroBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PlayerAvatar)).EndInit();
@@ -274,7 +299,9 @@
         private System.Windows.Forms.TableLayoutPanel EquipedPanel;
         private System.Windows.Forms.TextBox EquipedText;
         private System.Windows.Forms.TableLayoutPanel StatsPanel;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel InventoryPanel;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
